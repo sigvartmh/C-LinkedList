@@ -146,6 +146,7 @@ int list_extract(list_t list, int index)
                 curr->next->prev=curr->prev;
             }
             list->length--;
+	    break;
         }
         i++;
     }
