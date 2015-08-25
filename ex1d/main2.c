@@ -37,6 +37,6 @@ int main(){
 void *print(void *time){
     int *id = (int *) time;
     printf("Hello TTK4175:%d\r\n", *id);
-    sleep(5);
+    busy_wait_delay(5);
     printf("Hello TTK4175:%d\r\n", *id);
 }
